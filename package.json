@@ -1,0 +1,14 @@
+{
+  "name": "@benr-dev/monorepo-with-react-and-lerna",
+  "version": "1.0.0",
+  "description": "Experiment to solve 'multiple react' issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "benr-dev",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  }
+}
