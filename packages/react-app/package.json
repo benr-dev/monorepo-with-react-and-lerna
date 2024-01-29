@@ -26,6 +26,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@benr-dev/component-lib": "^0.0.0",
     "react": "17",
     "typescript": "4"
   },
@@ -54,6 +55,10 @@
     "webpack-dev-server": "^4.15.1"
   },
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "testMatch": [
+      "**/__tests__/**/*.test.[jt]s?(x)",
+      "!**/dist/**"
+    ]
   }
 }
