@@ -40,9 +40,13 @@
     "react": "17"
   },
   "jest": {
+    "roots": [
+      "<rootDir>/lib/",
+      "<rootDir>/__tests__/"
+    ],
     "testEnvironment": "jsdom",
     "testMatch": [
-      "**/__tests__/**/*.test.[jt]s?(x)",
+      "**/__tests__/*.test.[jt]s?(x)",
       "!**/dist/**"
     ],
     "transform": {
